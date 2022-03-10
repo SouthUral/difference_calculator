@@ -10,6 +10,7 @@ python = "^3.8"
 
 [tool.poetry.scripts]
 enter-point = "general_code.scripts.enter_point:main"
+gendiff = "general_code.scripts.gendiff:main"
 
 [tool.poetry.dev-dependencies]
 
