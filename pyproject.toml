@@ -3,9 +3,13 @@ name = "difference_calculate"
 version = "0.1.0"
 description = ""
 authors = ["vova <vladimir1012kov@gmail.com>"]
+packages = [{include = "general_code"},]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+
+[tool.poetry.scripts]
+enter-point = "general_code.scripts.enter_point:main"
 
 [tool.poetry.dev-dependencies]
 
