@@ -15,3 +15,6 @@ gendiff:
 
 flake:
 	poetry run flake8 general_code
+
+test:
+	poetry run pytest
