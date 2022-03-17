@@ -12,3 +12,6 @@ install:
 
 gendiff:
 	poetry run gendiff -h
+
+flake:
+	poetry run flake8 general_code
